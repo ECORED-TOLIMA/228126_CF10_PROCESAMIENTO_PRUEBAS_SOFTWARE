@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Gestión del proceso de pruebas de <em>software</em>',
+    Name: 'DevOps e integración continua',
     Description:
-      'Este componente abarca metodologías de desarrollo, fundamentos y tipos de pruebas, así como técnicas para diseñar casos, gestionar incidencias y aplicar herramientas especializadas. Además, incluye la ejecución, certificación y mejora continua del <em>software</em>, junto con la generación de informes, trazabilidad y automatización en entornos de integración continua.',
+      'Este componente formativo aborda los fundamentos de DevOps, los procesos de desarrollo de software, el uso de contenedores, la integración, entrega y despliegue continuo, así como las herramientas Git, GitHub, GitLab y Jenkins. Estos conocimientos permiten comprender la automatización y la integración continua como soporte para el desarrollo y la entrega de software.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -185,6 +185,13 @@ export default {
             hash: 't_6_3',
           },
         ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo:
+          'Normatividad, seguridad y trazabilidad en el proceso de pruebas de software',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [

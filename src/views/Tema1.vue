@@ -12,13 +12,12 @@
         figure
           img(src='@/assets/curso/tema1/1.svg', alt='', style="width: 390px").m-auto
       .col-lg-8
-        .row.justify-content-center.mt-4
+        .row.justify-content-center.mb-4
           .col-lg-12
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-4
-                  p Estos son enfoques estructurados que permiten organizar y gestionar la construcción de sistemas informáticos, mediante la definición de fases, actividades, roles y entregables. Su aplicación facilita la planificación del proyecto, el control de los procesos y la entrega de soluciones alineadas con los requerimientos establecidos.
- 
+                  p.mb-0 Estos son enfoques estructurados que permiten organizar y gestionar la construcción de sistemas informáticos, mediante la definición de fases, actividades, roles y entregables. Su aplicación facilita la planificación del proyecto, el control de los procesos y la entrega de soluciones alineadas con los requerimientos establecidos.
 
         p.mt-2 En términos generales, el desarrollo de <em>software</em> se compone de diversas etapas, las cuales se integran de forma ordenada dentro de una metodología. Estas etapas permiten transformar necesidades del usuario en soluciones funcionales, asegurando trazabilidad y control durante todo el proceso. Dichas etapas son:
 
@@ -37,7 +36,6 @@
               alt='Figura 1 que representa el ciclo general del desarrollo de <em>software</em>, que inicia con la definición de necesidades, continúa con el análisis y el diseño, avanza hacia la codificación y las pruebas, y finaliza con la validación, el mantenimiento y la evolución continua del sistema.'
             )
 
-
     .bloque-texto-g.bg-3.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/3.png')})`}"
@@ -54,46 +52,44 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p Las metodologías también influyen directamente en la forma en que se integran las pruebas de <em>software</em>. Dependiendo del enfoque adoptado, las pruebas pueden ubicarse en fases específicas o desarrollarse de manera continua, lo que impacta en la detección temprana de errores y en la mejora del producto.
+                  p.mb-0 Las metodologías también influyen directamente en la forma en que se integran las pruebas de <em>software</em>. Dependiendo del enfoque adoptado, las pruebas pueden ubicarse en fases específicas o desarrollarse de manera continua, lo que impacta en la detección temprana de errores y en la mejora del producto.
       .col-lg-5.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/4.png', alt='', style="width: 480px").m-auto
+
+    .row.BG01.justify-content-center.px-md-5.px-4.mt-4(data-aos="fade-left")
+      .row.justify-content-center
+        .col-lg-4.d-none.d-lg-block
+          figure
+            img(src='@/assets/curso/tema1/5.svg', alt='', style="width: 390px").m-auto
+        .col-lg-6
+          p La integración de pruebas en el desarrollo consta de:
+
+          ul.lista-ul--color
+            li
+              i.fas.fa-file-code
+              p.mb-0 Control de planificación de pruebas.
       
-    .row.bg-04
-      .col-12
-        .p-5
-          .row.align-items-center.justify-content-center(data-aos="fade-down")
-            .col-lg-4.d-none.d-lg-block
-              figure
-                img(src='@/assets/curso/tema1/5.svg', alt='', style="width: 390px").m-auto
-            .col-lg-6
-              p La integración de pruebas en el desarrollo consta de:
+            li
+              i.fas.fa-file-code
+              p.mb-0 Análisis y diseño de pruebas.
 
-              ul.lista-ul--color
-                li.d-flex.align-items-start
-                  span.icono-img
-                  p.mb-0 Control de planificación de pruebas.
-          
-                li.d-flex.align-items-start
-                  span.icono-img
-                  p.mb-0 Análisis y diseño de pruebas.
+            li
+              i.fas.fa-file-code
+              p.mb-0 Implementación y ejecución de pruebas.
 
-                li.d-flex.align-items-start
-                  span.icono-img
-                  p.mb-0 Implementación y ejecución de pruebas.
+            li
+              i.fas.fa-file-code
+              p.mb-0 Evaluación de los criterios de salida y elaboración de informes.
 
-                li.d-flex.align-items-start
-                  span.icono-img
-                  p.mb-0 Evaluación de los criterios de salida y elaboración de informes.
+            li
+              i.fas.fa-file-code
+              p.mb-0 Actividades de cierre de pruebas.
 
-                li.d-flex.align-items-start
-                  span.icono-img
-                  p.mb-0 Actividades de cierre de pruebas.
+          p En este sentido, la selección de una metodología adecuada es un factor determinante en el éxito del proyecto, ya que influye en el tiempo de desarrollo, la calidad del <em>software</em> y la capacidad de respuesta ante cambios. Por ello, su correcta aplicación permite estructurar el proceso de desarrollo de manera eficiente, garantizando resultados coherentes y alineados con los objetivos del sistema.
 
-              p En este sentido, la selección de una metodología adecuada es un factor determinante en el éxito del proyecto, ya que influye en el tiempo de desarrollo, la calidad del <em>software</em> y la capacidad de respuesta ante cambios. Por ello, su correcta aplicación permite estructurar el proceso de desarrollo de manera eficiente, garantizando resultados coherentes y alineados con los objetivos del sistema.
-
-          
-    separador
+    Separador
+    
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Conceptos y tipos de metodologías
 
@@ -117,7 +113,7 @@
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
-              p Las metodologías no solo definen el proceso técnico, sino también la forma en que se gestiona el proyecto, incluyendo la comunicación con el cliente, la organización del equipo y la entrega de resultados parciales o finales. Por esta razón, su selección influye directamente en la eficiencia del desarrollo y en la capacidad de adaptación ante cambios.
+              p.mb-0 Las metodologías no solo definen el proceso técnico, sino también la forma en que se gestiona el proyecto, incluyendo la comunicación con el cliente, la organización del equipo y la entrega de resultados parciales o finales. Por esta razón, su selección influye directamente en la eficiencia del desarrollo y en la capacidad de adaptación ante cambios.
 
         p.mt-4 Partiendo de lo anterior, la siguiente tabla presenta una clasificación general de las metodologías de desarrollo de <em>software</em>, según su enfoque y su aplicación principal en distintos tipos de proyectos:
 
@@ -125,16 +121,16 @@
           h5 Tabla 1. 
           span Clasificación de metodologías de desarrollo
 
-        .tabla-a.color-acento-contenido
+        .tabla-a.color-acento-contenido.tabla-metodologias
           table
-            thead(style="background-color: #FFEBBE")
+            thead
               tr
                 th Tipo
                 th Enfoque
                 th Aplicación principal
 
             tbody
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start 
                   b Tradicional.
                 td.text-start Secundaria.
@@ -146,7 +142,7 @@
                 td.text-start Iterativo e incremental.
                 td.text-start Proyectos dinámicos.
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start
                   b Híbrida.
                 td.text-start Combinada.
@@ -155,7 +151,7 @@
         p.mt-4.text-center Dentro de esta clasificación, cada metodología se destaca por lo siguiente:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.bg-4.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -171,7 +167,7 @@
           
         h4.text-center Metodologías ágiles
         p Trabajan mediante ciclos cortos de desarrollo que permiten evaluar resultados de forma continua, ajustando el producto según las necesidades del usuario. Su enfoque prioriza la colaboración del equipo, la entrega frecuente de resultados y la adaptación rápida a los cambios del proyecto.
-      .col-md.tarjeta.bg-4.p-5
+      .col-md.tarjeta.bg-15.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -188,18 +184,16 @@
         p En conclusión:
 
         ul.lista-ul--color
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Las metodologías tradicionales permiten mayor previsibilidad en el desarrollo.
 
-    
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Las metodologías ágiles facilitan la adaptación continua.
 
-
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Las metodologías híbridas equilibran control y flexibilidad.
 
         p La elección del tipo de metodología no es arbitraria, sino que depende de factores como la claridad de los requisitos, el tamaño del proyecto, la experiencia del equipo y el nivel de interacción con el cliente. En proyectos donde los requerimientos son estables, los enfoques tradicionales resultan adecuados; mientras que, en entornos cambiantes, las metodologías ágiles ofrecen mejores resultados.
@@ -209,7 +203,7 @@
           .row.align-items-center
             .col-lg-12
               .cajon.color2.p-4
-                p Además, la metodología seleccionada define la forma en que se integran las pruebas de <em>software</em>. En modelos secuenciales, las pruebas suelen ubicarse al final del proceso, mientras que en enfoques iterativos se incorporan de manera continua, permitiendo detectar errores de forma temprana y reducir costos de corrección.
+                p.mb-0 Además, la metodología seleccionada define la forma en que se integran las pruebas de <em>software</em>. En modelos secuenciales, las pruebas suelen ubicarse al final del proceso, mientras que en enfoques iterativos se incorporan de manera continua, permitiendo detectar errores de forma temprana y reducir costos de corrección.
 
     p.m-4.text-center La siguiente imagen resume un poco lo que aborda cada metodología:
 
@@ -229,9 +223,10 @@
         .row.align-items-center
           .col-lg-12
             .cajon.color2.p-4
-              p En este sentido, las metodologías no solo determinan cómo se desarrolla el <em>software</em>, sino también cómo se controla su calidad y cómo se gestionan los cambios durante su construcción. Una correcta selección y aplicación permite optimizar recursos, mejorar la coordinación del equipo y asegurar resultados alineados con los objetivos del proyecto.
+              p.mb-0 En este sentido, las metodologías no solo determinan cómo se desarrolla el <em>software</em>, sino también cómo se controla su calidad y cómo se gestionan los cambios durante su construcción. Una correcta selección y aplicación permite optimizar recursos, mejorar la coordinación del equipo y asegurar resultados alineados con los objetivos del proyecto.
 
-    separador
+    Separador
+    
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Metodologías tradicionales y ágiles
 
@@ -243,28 +238,23 @@
         p.mb-0 Las metodologías tradicionales y ágiles representan dos enfoques distintos para la gestión del desarrollo de <em>software</em>, diferenciándose principalmente en la forma en que abordan la planificación, la ejecución y la adaptación a los cambios. Mientras que unas priorizan la previsión y el control, las otras se enfocan en la flexibilidad y la entrega progresiva de valor.
 
     p.mt-4 Aunque anteriormente se presentó una descripción general de las metodologías tradicionales y ágiles, a continuación, se profundiza en aspectos más específicos de cada una, resaltando su enfoque, forma de trabajo y las indicaciones que orientan su aplicación en distintos tipos de proyectos:
-
-    .row.justify-content-center
-      .col-lg-12
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-10")
-          .tarjeta.clr--pink02.p-4(titulo="Metodologías tradicionales")
-            .row.align-items-center
-              .col-lg-7
-                p También conocidas como enfoques predictivos, se basan en una planificación detallada desde el inicio del proyecto, donde se definen con precisión los requisitos, tiempos, recursos y etapas antes de comenzar el desarrollo. Este enfoque permite establecer un control riguroso sobre el proceso, facilitar la documentación y reducir la incertidumbre, siendo especialmente adecuado para proyectos con requerimientos estables y bien definidos.
-              .col-lg-5.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/tema1/13.png', alt='', style="width: 390px").m-auto
     
-          div(titulo="Metodologías ágiles")
-            .row.align-items-center
-              .col-lg-7
-                p Se fundamentan en un modelo iterativo e incremental, en el cual el desarrollo se realiza en ciclos cortos que permiten obtener entregables funcionales de manera frecuente. Este enfoque facilita la incorporación de cambios, promueve la colaboración continua con el cliente y el equipo de trabajo, y permite validar el producto de forma constante, adaptándose a entornos dinámicos y necesidades cambiantes.
-              .col-lg-5.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/tema1/14.png', alt='', style="width: 390px").m-auto
+    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-10")
+      .row(titulo="Metodologías tradicionales")
+        .col-md-6.mb-4.mb-md-0
+          p También conocidas como enfoques predictivos, se basan en una planificación detallada desde el inicio del proyecto, donde se definen con precisión los requisitos, tiempos, recursos y etapas antes de comenzar el desarrollo. Este enfoque permite establecer un control riguroso sobre el proceso, facilitar la documentación y reducir la incertidumbre, siendo especialmente adecuado para proyectos con requerimientos estables y bien definidos.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema1/13.png', alt='')
+
+      .row(titulo="Metodologías ágiles")
+        .col-md-6.mb-4.mb-md-0
+          p Se fundamentan en un modelo iterativo e incremental, en el cual el desarrollo se realiza en ciclos cortos que permiten obtener entregables funcionales de manera frecuente. Este enfoque facilita la incorporación de cambios, promueve la colaboración continua con el cliente y el equipo de trabajo, y permite validar el producto de forma constante, adaptándose a entornos dinámicos y necesidades cambiantes.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/tema1/14.png', alt='')
     
     p.mt-4.text-center La siguiente tabla brinda una comparación específica y puntual de cada una:
-
 
     .row.justify-content-center
       .col-lg-10
@@ -272,16 +262,16 @@
           h5 Tabla 2. 
           span Comparación entre metodologías tradicionales y ágiles
 
-        .tabla-a.color-acento-contenido
+        .tabla-a.color-acento-contenido.tabla-metodologias
           table
-            thead(style="background-color: #FFEBBE")
+            thead
               tr
                 th Aspecto 
                 th Tradicional
                 th Ágil
 
             tbody
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start 
                   b Planificación.
                 td.text-start Inicial y detallada.
@@ -293,7 +283,7 @@
                 td.text-start Limitados.
                 td.text-start Frecuentes.
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start
                   b Entregas.
                 td.text-start Final del proyecto.
@@ -305,7 +295,7 @@
                 td.text-start Baja.
                 td.text-start Alta.
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start
                   b Control.
                 td.text-start Alto.
@@ -316,8 +306,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-4
-                  p El modelo tradicional más representativo es el modelo en cascada, en el cual cada fase se completa antes de iniciar la siguiente. Este enfoque permite documentar cada etapa con precisión, lo que facilita la trazabilidad y el control del proyecto, aunque puede generar dificultades cuando surgen cambios en etapas avanzadas.
-
+                  p.mb-0 El modelo tradicional más representativo es el modelo en cascada, en el cual cada fase se completa antes de iniciar la siguiente. Este enfoque permite documentar cada etapa con precisión, lo que facilita la trazabilidad y el control del proyecto, aunque puede generar dificultades cuando surgen cambios en etapas avanzadas.
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-4.d-none.d-lg-block
@@ -327,16 +316,16 @@
         p En contraste, las metodologías ágiles como Scrum o Kanban organizan el trabajo en ciclos cortos llamados iteraciones o sprints, donde se desarrollan funcionalidades específicas que pueden ser evaluadas por el usuario. Esto permite identificar ajustes necesarios de forma temprana y reducir el riesgo de construir soluciones que no respondan a las necesidades reales. Con ello se establece lo siguiente:
 
         ul.lista-ul--color
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 El enfoque tradicional facilita la documentación y el control del proceso.
     
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 El enfoque ágil permite responder rápidamente a cambios.
     
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 La interacción continua mejora la calidad del producto final.
 
         .row.justify-content-center.mt-4
@@ -344,8 +333,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p Estas diferencias también impactan en la gestión de pruebas de <em>software</em>. En los modelos tradicionales, las pruebas suelen concentrarse en fases finales, lo que puede retrasar la detección de errores. En metodologías ágiles, las pruebas se integran dentro de cada iteración, permitiendo validar continuamente el funcionamiento del sistema.
-
+                  p.mb-0 Estas diferencias también impactan en la gestión de pruebas de <em>software</em>. En los modelos tradicionales, las pruebas suelen concentrarse en fases finales, lo que puede retrasar la detección de errores. En metodologías ágiles, las pruebas se integran dentro de cada iteración, permitiendo validar continuamente el funcionamiento del sistema.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -359,24 +347,21 @@
 
         p.mt-2.text-center.bg-12.p-4 La diferencia entre metodologías tradicionales y ágiles radica en cómo gestionan el cambio, la planificación y la entrega del <em>software</em>.
 
-
-    separador
+    Separador
+    
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Marcos de referencia y lecciones aprendidas
 
     p En el desarrollo de <em>software</em>, los marcos de referencia constituyen estructuras de apoyo que orientan la organización del trabajo, la colaboración entre equipos y la mejora de los procesos. A diferencia de las metodologías, estos no definen un flujo rígido de actividades, sino que establecen principios, prácticas y herramientas que pueden adaptarse según el contexto del proyecto.
-
-    .row.align-items-center.justify-content-center
+    
+    .row.justify-content-center.mt-4
       .col-lg-12
-        .row.justify-content-center
-          .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-center.bg-1(data-aos="fade-right")
-              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                figure.m-0.p-0.w-100.h-100.d-flex
-                  img(src='@/assets/curso/tema1/17.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:0px")
-              .col-lg
-                p Su implementación permite estandarizar la forma en que se gestionan las tareas, se distribuyen responsabilidades y se controla el avance del desarrollo. Esto resulta especialmente relevante en entornos donde intervienen múltiples equipos o donde se requiere mantener consistencia en la entrega de resultados. Para complementar lo explicado, se sugiere analizar la siguiente imagen:
+        .recurso-mensaje-canal
+          .recurso-mensaje-canal__icono
+            img(src='@/assets/curso/tema1/28.svg', alt='')
 
+          .recurso-mensaje-canal__texto
+            p.mb-0 Su implementación permite estandarizar la forma en que se gestionan las tareas, se distribuyen responsabilidades y se controla el avance del desarrollo. Esto resulta especialmente relevante en entornos donde intervienen múltiples equipos o donde se requiere mantener consistencia en la entrega de resultados. Para complementar lo explicado, se sugiere analizar la siguiente imagen:
 
     .row.justify-content-center
       .col-10
@@ -395,45 +380,28 @@
 
     p.mt-4.text-center Entre los marcos de referencia más utilizados se encuentran Scrum, Kanban y DevOps. Cada uno aporta elementos específicos que fortalecen la gestión del desarrollo:
 
-
-    .row.justify-content-center
-      .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/19.svg' ).m-auto
-          .tarjeta.bg-4.shadow
+    .row.mb-4.recurso-caracteristicas-cortas
+      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+        .tarjeta-avatar.recurso-caracteristicas-cortas__item
+          img(src='@/assets/curso/tema1/19.svg' alt='')
+          .tarjeta.color-primario
             .p-4
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .py-2.px-3
-                    p.mb-0 #[b Scrum]
-
-                    p Organiza el trabajo en iteraciones con roles definidos.
-    
-    
-      .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/20.svg').m-auto
-          .tarjeta.bg-4.shadow
+              h4.text-center Scrum
+              p.text-center.mb-0 Organiza el trabajo en iteraciones con roles definidos.
+      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+        .tarjeta-avatar.recurso-caracteristicas-cortas__item
+          img(src='@/assets/curso/tema1/20.svg' alt='')
+          .tarjeta.color-primario
             .p-4
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .py-2.px-3
-                    p.mb-0 #[b Kanban]
-
-                    p Permite visualizar el flujo de tareas y optimizar procesos.
-    
-    
-      .col-10.col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/21.svg' ).m-auto
-          .tarjeta.bg-4.shadow
+              h4.text-center Kanban
+              p.text-center.mb-0 Permite visualizar el flujo de tareas y optimizar procesos.
+      .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+        .tarjeta-avatar.recurso-caracteristicas-cortas__item
+          img(src='@/assets/curso/tema1/21.svg' alt='')
+          .tarjeta.color-primario
             .p-4
-              .row.justify-content-center.mb-3
-                .col-auto
-                  .py-2.px-3
-                    p.mb-0 #[b DevOps]
-
-                    p Integra el desarrollo y la operación para mejorar la entrega continua del <em>software</em>.
+              h4.text-center DevOps
+              p.text-center.mb-0 Integra el desarrollo y la operación para mejorar la entrega continua del software.
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-3.p-3.p-sm-4.p-md-5.mt-4
       .bloque-texto-g__img(
@@ -444,14 +412,12 @@
 
     p.mt-4 El uso de marcos de referencia también influye en la forma en que se gestionan las pruebas de <em>software</em>, ya que promueve la integración de actividades de validación dentro del proceso de desarrollo. Esto permite identificar errores de manera temprana y ajustar el producto de forma progresiva, evitando acumulación de fallos en etapas finales.
 
-
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
-              p Sin embargo, la verdadera mejora no proviene únicamente de la adopción de un marco de referencia, sino del análisis posterior de su aplicación. En este punto, las lecciones aprendidas cumplen un papel fundamental, ya que permiten evaluar lo ocurrido durante el desarrollo y generar conocimiento útil para proyectos futuros.
-
+              p.mb-0 Sin embargo, la verdadera mejora no proviene únicamente de la adopción de un marco de referencia, sino del análisis posterior de su aplicación. En este punto, las lecciones aprendidas cumplen un papel fundamental, ya que permiten evaluar lo ocurrido durante el desarrollo y generar conocimiento útil para proyectos futuros.
 
     .row.align-items-center.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-4.d-none.d-lg-block
@@ -461,24 +427,23 @@
         p Estas lecciones surgen de la experiencia obtenida en la ejecución de actividades, tanto en situaciones exitosas como en aquellas que presentan dificultades. Su propósito es identificar patrones de comportamiento que impactan el desarrollo, permitiendo ajustar prácticas y mejorar la toma de decisiones, donde:
 
         ul.lista-ul--color
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Permiten reconocer aciertos que deben mantenerse.
     
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Evidencian errores que deben evitarse.
     
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Facilitan la mejora de procesos.
 
-          li.d-flex.align-items-start
-            span.icono-img
+          li
+            i.fas.fa-file-code
             p.mb-0 Apoyan la toma de decisiones futuras.
 
         p Y se accionan con la siguiente información:
-
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -486,15 +451,15 @@
           h5 Tabla 3. 
           span Aplicación de lecciones aprendidas
 
-        .tabla-a.color-acento-contenido
+        .tabla-a.color-acento-contenido.tabla-metodologias
           table
-            thead(style="background-color: #FFEBBE")
+            thead
               tr
                 th Situación
                 th Acción generada
 
             tbody
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start 
                   b Fallos en la comunicación.
                 td.text-start Ajuste en canales de interacción.
@@ -504,7 +469,7 @@
                   b Retrasos en entregas.
                 td.text-start Mejora en planificación.
 
-              tr(style="background-color: #F6F6F6")
+              tr
                 td.text-start
                   b Errores recurrentes.
                 td.text-start Integración de pruebas tempranas.
@@ -526,16 +491,16 @@
               img(src='@/assets/curso/tema1/25.svg', alt='')
 
           .tarjeta.color-secundario.p-3(x="6%" y="12%" numero="+")
-            p ¿Cómo influyen los cambios en el funcionamiento del equipo?
+            p.mb-0 ¿Cómo influyen los cambios en el funcionamiento del equipo?
 
           .tarjeta.color-secundario.p-3(x="94%" y="12%" numero="+")
-            p Oportunidades en el flujo de trabajo del proceso.
+            p.mb-0 Oportunidades en el flujo de trabajo del proceso.
 
           .tarjeta.color-secundario.p-3(x="6%" y="86%" numero="+")
-            p Implementar cambios.
+            p.mb-0 Implementar cambios.
 
           .tarjeta.color-secundario.p-3(x="94%" y="86%" numero="+")
-            p ¿Cómo se puede mejorar el proceso actual?
+            p.mb-0 ¿Cómo se puede mejorar el proceso actual?
 
         img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema1/25m.svg',
@@ -549,7 +514,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p Este proceso de aprendizaje continuo permite a los equipos evolucionar progresivamente, fortaleciendo su capacidad para enfrentar nuevos proyectos con mayor eficiencia. A medida que se acumula experiencia, se reducen los errores, se optimiza el uso de recursos y se mejora la calidad del <em><em>software</em></em> entregado.
+                  p.mb-0 Este proceso de aprendizaje continuo permite a los equipos evolucionar progresivamente, fortaleciendo su capacidad para enfrentar nuevos proyectos con mayor eficiencia. A medida que se acumula experiencia, se reducen los errores, se optimiza el uso de recursos y se mejora la calidad del <em><em>software</em></em> entregado.
 
         .row.align-items-start.mt-4
           .col-lg-2.mb-lg-0.mb-4

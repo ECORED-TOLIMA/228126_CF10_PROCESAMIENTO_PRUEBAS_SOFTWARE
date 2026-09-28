@@ -9,7 +9,7 @@
       h1 Introducción
 
     figure
-      img(src='@/assets/curso/intro/1.png', alt='', style="width: 1220px").m-auto
+      img.mb-4(src='@/assets/curso/intro/1.png', alt='', style="width: 1220px").m-auto
 
     p.mt-4 En el desarrollo de <em>software</em> moderno, garantizar la calidad de los productos es un factor crítico para el éxito de las organizaciones y la satisfacción de los usuarios. En este contexto, las pruebas de <em>software</em> se convierten en una disciplina fundamental dentro del ciclo de vida del desarrollo, ya que permiten identificar errores, validar funcionalidades y asegurar que los sistemas cumplan con los requisitos establecidos.
 
@@ -23,7 +23,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p Es así como este componente aborda de manera integral los conceptos, metodologías y herramientas necesarias para planificar, ejecutar y controlar las actividades de prueba. Inicia con el análisis de las metodologías de desarrollo, tanto tradicionales como ágiles, permitiendo comprender el entorno en el que se integran las pruebas. Posteriormente, se profundiza en los fundamentos de las pruebas de <em>software</em>, sus tipos, niveles y procedimientos, estableciendo las bases para una adecuada gestión de la calidad.
+                  p.mb-0 Es así como este componente aborda de manera integral los conceptos, metodologías y herramientas necesarias para planificar, ejecutar y controlar las actividades de prueba. Inicia con el análisis de las metodologías de desarrollo, tanto tradicionales como ágiles, permitiendo comprender el entorno en el que se integran las pruebas. Posteriormente, se profundiza en los fundamentos de las pruebas de <em>software</em>, sus tipos, niveles y procedimientos, estableciendo las bases para una adecuada gestión de la calidad.
         .row.align-items-start.mt-4
           .col-lg-2.mb-lg-0.mb-4
             figure(data-aos="fade-down")

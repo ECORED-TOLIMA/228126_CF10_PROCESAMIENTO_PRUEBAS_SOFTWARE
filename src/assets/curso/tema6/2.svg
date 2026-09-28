@@ -1,15 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
   <defs>
     <clipPath id="clip-path">
       <rect id="Rectángulo_467470" data-name="Rectángulo 467470" width="47.441" height="47.476" fill="#19538d"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1183619" data-name="Grupo 1183619" transform="translate(-705.629 -1685)">
-    <g id="Grupo_1178970" data-name="Grupo 1178970" transform="translate(705.629 1685)">
-      <path id="Sustracción_110" data-name="Sustracción 110" d="M80,80h0L32.943,80l-1.885-4.512H5.651L3.767,80H0V0H48.35l1.883,4.51H75.644L77.528,0H80V80Z" transform="translate(0)" fill="#ffd470"/>
-    </g>
-    <path id="Trazado_998456" data-name="Trazado 998456" d="M-3,0H18.647l2.824,6.588H-.176Z" transform="translate(763.217 1685)" fill="#19538d"/>
-    <g id="Grupo_1213020" data-name="Grupo 1213020" transform="translate(722.008 1701)">
+  <g id="Grupo_1213075" data-name="Grupo 1213075" transform="translate(-179.736 -5520.879)">
+    <path id="Sustracción_110" data-name="Sustracción 110" d="M15975.961,19829.512h85v85h-85Z" transform="translate(-15796.225 -14308.633)" fill="#9ecfff"/>
+    <g id="Grupo_1213076" data-name="Grupo 1213076" transform="translate(198.115 5539.879)">
       <g id="Grupo_1213019" data-name="Grupo 1213019" clip-path="url(#clip-path)">
         <path id="Trazado_1285944" data-name="Trazado 1285944" d="M1.586,34.808l0,11.066,32.418-.01V1.586l-32.423,0,0,31.593a5.914,5.914,0,0,1-1.584,0L.007.811A.771.771,0,0,1,.824,0l33.95,0a.769.769,0,0,1,.816.817v45.8a.8.8,0,0,1-.818.834H.827a.8.8,0,0,1-.815-.806L0,34.8Z" transform="translate(0 -0.001)" fill="#19538d"/>
         <path id="Trazado_1285945" data-name="Trazado 1285945" d="M238.106,109.457c-.189,1.108-2.084.589-3.109.687a12.8,12.8,0,0,1-.017-1.577l1.669-.015L242.464,74.5a2.874,2.874,0,0,1,1.551.285Z" transform="translate(-197.799 -62.706)" fill="#19538d"/>

@@ -12,7 +12,7 @@
 
     p.mt-4 El proceso de pruebas de <em>software</em> no depende únicamente de la definición de técnicas o la ejecución de casos, sino también del uso de herramientas que permiten automatizar, registrar y controlar cada actividad. Estas herramientas facilitan la organización del trabajo, mejoran la trazabilidad y permiten gestionar grandes volúmenes de información de manera eficiente.
 
-    .row.align-items-center(data-aos="fade-down")
+    .row.align-items-center.mb-4(data-aos="fade-down")
       .col-lg-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema4/2.png', alt='', style="width: 480px").m-auto
@@ -22,11 +22,9 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-4
-                  p La gestión del proceso de pruebas implica coordinar actividades, controlar resultados y asegurar que cada fase del testing se ejecute de forma ordenada. En este contexto, las herramientas no reemplazan el criterio del equipo, sino que potencian su capacidad para planificar, ejecutar y evaluar las pruebas.
-
+                  p.mb-0 La gestión del proceso de pruebas implica coordinar actividades, controlar resultados y asegurar que cada fase del testing se ejecute de forma ordenada. En este contexto, las herramientas no reemplazan el criterio del equipo, sino que potencian su capacidad para planificar, ejecutar y evaluar las pruebas.
 
         p.mt-2 Las herramientas utilizadas en pruebas de <em>software</em> pueden clasificarse según su función dentro del proceso. Algunas se enfocan en la automatización de pruebas, otras en la gestión de casos y otras en el seguimiento de incidencias. Esta clasificación permite seleccionar herramientas adecuadas según las necesidades del proyecto.
-
         p Las herramientas de pruebas se clasifican de la siguiente manera:
 
     .row
@@ -64,7 +62,6 @@
 
     p.mt-4 Las herramientas de automatización permiten ejecutar pruebas repetitivas sin intervención manual, mejorando la eficiencia y reduciendo el tiempo de validación, especialmente en pruebas de regresión. Por su parte, las herramientas de gestión de pruebas facilitan la organización de casos, el registro de resultados y la trazabilidad entre requisitos y evidencias. En este contexto, la herramienta #[b Selenium] se utiliza para la automatización de pruebas, #[b JIRA] para la gestión de incidencias, #[b TestRail] para la administración de casos de prueba y #[b Jenkins]  para la integración continua dentro del proceso de desarrollo.
 
-
     .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
       .col-lg-4.d-none.d-lg-block.order-2
         figure
@@ -75,7 +72,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p La gestión del proceso de pruebas implica coordinar estas herramientas dentro de un flujo de trabajo coherente, asegurando que la información fluya entre ellas sin pérdida de datos. Esto permite mantener una visión clara del estado del sistema y facilita la toma de decisiones.
+                  p.mb-0 La gestión del proceso de pruebas implica coordinar estas herramientas dentro de un flujo de trabajo coherente, asegurando que la información fluya entre ellas sin pérdida de datos. Esto permite mantener una visión clara del estado del sistema y facilita la toma de decisiones.
           
         .row.align-items-start.mt-4
           .col-lg-2.mb-lg-0.mb-4
@@ -97,26 +94,23 @@
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
-              p Estas herramientas se integran dentro de procesos de desarrollo continuo, donde las pruebas se ejecutan automáticamente en cada cambio del sistema. Esto permite mantener un control constante sobre la calidad del <em>software</em> y facilita la entrega de versiones estables.
+              p.mb-0 Estas herramientas se integran dentro de procesos de desarrollo continuo, donde las pruebas se ejecutan automáticamente en cada cambio del sistema. Esto permite mantener un control constante sobre la calidad del <em>software</em> y facilita la entrega de versiones estables.
 
-
-
-    separador
+    Separador
+    
     #t_4_1.titulo-segundo.color-acento-contenido
       h2 4.1 Herramientas para la aplicación de pruebas
 
-
-    .row.align-items-center(data-aos="fade-down")
+    .row.align-items-center.mb-4(data-aos="fade-down")
       .col-lg-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema4/6.svg', alt='', style="width: 290px").m-auto
       .col-lg-9
         p Las herramientas para la aplicación de pruebas permiten ejecutar, automatizar y controlar la validación del <em>software</em>, facilitando la evaluación del sistema bajo diferentes condiciones. Su uso no solo acelera la ejecución de las pruebas, sino que también mejora la precisión, la repetibilidad y la organización del proceso de aseguramiento de la calidad.
-
         p Estas herramientas se seleccionan según el tipo de sistema, el entorno de desarrollo y los objetivos de validación. Dado que no todas cumplen la misma función, su aplicación debe responder a las siguientes necesidades específicas dentro del proceso de pruebas, garantizando una cobertura adecuada del <em>software</em>:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.bg-4.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -132,7 +126,7 @@
           
         h4.text-center Herramientas de automatización funcional
         p Permiten ejecutar pruebas simulando la interacción del usuario con la aplicación, facilitando la validación de procesos completos sin intervención manual. Son ampliamente utilizadas en pruebas de regresión, donde es necesario ejecutar los mismos casos en múltiples versiones del sistema.
-      .col-md.tarjeta.bg-4.p-5
+      .col-md.tarjeta.bg-15.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -141,52 +135,43 @@
         h4.text-center Herramientas de pruebas de rendimiento
         p Se utilizan para analizar el comportamiento del sistema bajo diferentes niveles de carga, identificando fallos relacionados con tiempos de respuesta, estabilidad y capacidad. Son fundamentales en sistemas con múltiples usuarios o grandes volúmenes de información.
 
+    .row.BG01.justify-content-center.px-md-5.px-4.mt-4(data-aos="fade-left")
+      .row.justify-content-center
+        .col-12
+          p Además de su función específica, estas herramientas permiten integrar el proceso de pruebas dentro de flujos automatizados, lo que facilita la ejecución continua de validaciones a medida que el sistema evoluciona. Esto reduce la dependencia de pruebas manuales y mejora la eficiencia del equipo.
+          p.mb-4 Los beneficios del uso de herramientas de pruebas son:
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span.text-black 1
+              p.mb-0 Reduce significativamente el tiempo de ejecución de las pruebas al eliminar tareas manuales repetitivas y permitir una validación más rápida del sistema.
 
-    p.mt-4 Además de su función específica, estas herramientas permiten integrar el proceso de pruebas dentro de flujos automatizados, lo que facilita la ejecución continua de validaciones a medida que el sistema evoluciona. Esto reduce la dependencia de pruebas manuales y mejora la eficiencia del equipo.
+            hr(style="border-color: 3px solid #AFAFAF;")
+      
+            li 
+              .lista-ol--cuadro__vineta
+                span.text-black 2
+              p.mb-0 Mejora la confiabilidad de los resultados, ya que las pruebas se ejecutan de forma consistente y sin errores humanos.
 
-    p Los beneficios del uso de herramientas de pruebas son:
+            hr(style="border-color: 3px solid #AFAFAF;")
+      
+            li 
+              .lista-ol--cuadro__vineta
+                span.text-black 3
+              p.mb-0 Permite validar cambios en el <em>software</em> ejecutando los mismos casos de prueba en diferentes versiones del sistema.
 
-
-    .row.bg-04
-      .col-12
-        .p-5
-          .row.align-items-center.justify-content-center
-            .col-11
-              ol.lista-ol--cuadro
-                li 
-                  .lista-ol--cuadro__vineta
-                    span.text-black 1
-                  p.mb-0 Reduce significativamente el tiempo de ejecución de las pruebas al eliminar tareas manuales repetitivas y permitir una validación más rápida del sistema.
-
-                hr(style="border-color: 3px solid #AFAFAF;")
-          
-                li 
-                  .lista-ol--cuadro__vineta
-                    span.text-black 2
-                  p.mb-0 Mejora la confiabilidad de los resultados, ya que las pruebas se ejecutan de forma consistente y sin errores humanos.
-
-                hr(style="border-color: 3px solid #AFAFAF;")
-          
-                li 
-                  .lista-ol--cuadro__vineta
-                    span.text-black 3
-                  p.mb-0 Permite validar cambios en el <em>software</em> ejecutando los mismos casos de prueba en diferentes versiones del sistema.
-
-                hr(style="border-color: 3px solid #AFAFAF;")
-
-
-                li 
-                  .lista-ol--cuadro__vineta
-                    span.text-black 4
-                  p.mb-0 Facilita procesos continuos al incorporar las pruebas dentro del flujo de desarrollo, asegurando una validación constante del sistema.
-
+            hr(style="border-color: 3px solid #AFAFAF;")
+            li 
+              .lista-ol--cuadro__vineta
+                span.text-black 4
+              p.mb-0 Facilita procesos continuos al incorporar las pruebas dentro del flujo de desarrollo, asegurando una validación constante del sistema.
 
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color2.p-4
-              p La implementación de estas herramientas debe realizarse de manera estratégica, considerando el costo, la curva de aprendizaje y el beneficio que aportan al proceso. No todas las herramientas son necesarias en todos los proyectos, por lo que su selección debe alinearse con los objetivos de validación.
+              p.mb-0 La implementación de estas herramientas debe realizarse de manera estratégica, considerando el costo, la curva de aprendizaje y el beneficio que aportan al proceso. No todas las herramientas son necesarias en todos los proyectos, por lo que su selección debe alinearse con los objetivos de validación.
 
         p.mt-4 El uso de herramientas para la aplicación de pruebas se ha convertido en un elemento esencial para garantizar la calidad del <em>software</em>, permitiendo ejecutar validaciones de forma continua, estructurada y eficiente.
 
@@ -206,34 +191,32 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-4
-                  p Dentro de esta gestión, la confidencialidad adquiere un papel fundamental, ya que las pruebas suelen involucrar información sensible como datos de usuarios, configuraciones del sistema y resultados internos del <em>software</em>. Por ello, es necesario establecer mecanismos que garanticen la protección de esta información durante todo el proceso.
+                  p.mb-0 Dentro de esta gestión, la confidencialidad adquiere un papel fundamental, ya que las pruebas suelen involucrar información sensible como datos de usuarios, configuraciones del sistema y resultados internos del <em>software</em>. Por ello, es necesario establecer mecanismos que garanticen la protección de esta información durante todo el proceso.
 
         p.mt-4 La gestión del proceso de pruebas establece controles que permiten monitorear el avance, validar resultados e identificar desviaciones oportunamente. Estos controles se aplican de forma continua desde la planificación hasta el cierre de incidencias, asegurando la calidad del proceso de validación del <em>software</em>, de la siguiente manera:    
-
 
     .row.justify-content-center.mt-4
       .col-lg-7
         LineaTiempoD.color-primario.linea-bold
           .row(numero="1" titulo="Paso 1. Seguimiento del avance")
             .col-md-12.mb-4.mb-md-0
-              p Permite controlar el progreso de las actividades de prueba y verificar el cumplimiento del cronograma establecido.
+              p.mb-0 Permite controlar el progreso de las actividades de prueba y verificar el cumplimiento del cronograma establecido.
     
           .row(numero="2" titulo="Paso 2. Control de ejecución de casos")
             .col-md-12.mb-4.mb-md-0
-              p Supervisa que los casos de prueba se ejecuten correctamente según lo planificado y registra su estado.
+              p.mb-0 Supervisa que los casos de prueba se ejecuten correctamente según lo planificado y registra su estado.
     
           .row(numero="3" titulo="Paso 3. Validación de resultados")
             .col-md-12.mb-4.mb-md-0
-              p Evalúa los resultados obtenidos para confirmar que cumplen con los criterios de aceptación y calidad definidos.
+              p.mb-0 Evalúa los resultados obtenidos para confirmar que cumplen con los criterios de aceptación y calidad definidos.
 
           .row(numero="4" titulo="Paso 4. Gestión de incidencias")
             .col-md-12.mb-4.mb-md-0
-              p Registra, da seguimiento y cierra los errores detectados, apoyando la toma de decisiones mediante reportes del proceso.
+              p.mb-0 Registra, da seguimiento y cierra los errores detectados, apoyando la toma de decisiones mediante reportes del proceso.
     
       .col-lg-5.d-none.d-lg-block
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema4/11.png', alt='', style="width: 100%").m-auto
-
 
     .row.align-items-center.justify-content-center.mt-4(data-aos="fade-down")
       .col-lg-4.d-none.d-lg-block
@@ -247,7 +230,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p La confidencialidad en el proceso de pruebas implica proteger la información utilizada y generada durante la validación del sistema. Esto incluye datos de prueba, resultados, reportes e incidencias, los cuales pueden contener información crítica para la organización.
+                  p.mb-0 La confidencialidad en el proceso de pruebas implica proteger la información utilizada y generada durante la validación del sistema. Esto incluye datos de prueba, resultados, reportes e incidencias, los cuales pueden contener información crítica para la organización.
 
         p.mt-2 Es importante analizar la siguiente imagen para entender un poco el proceso cíclico que se realiza para controlar y proteger la información:
 
@@ -291,9 +274,10 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color2.p-4
-                  p En conjunto, la correcta aplicación de estos elementos permite desarrollar pruebas de <em>software</em> en un entorno organizado, seguro y confiable, asegurando que tanto el proceso como los datos utilizados cumplan con estándares de calidad y seguridad.
+                  p.mb-0 En conjunto, la correcta aplicación de estos elementos permite desarrollar pruebas de <em>software</em> en un entorno organizado, seguro y confiable, asegurando que tanto el proceso como los datos utilizados cumplan con estándares de calidad y seguridad.
 
-    separador
+    Separador
+    
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3 Modelos de procesos y documentación
 
@@ -312,48 +296,45 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-4
-                  p Los modelos de procesos pueden variar según el enfoque del desarrollo, pero en general incluyen actividades como planificación, diseño, ejecución, evaluación y cierre. Estas etapas permiten estructurar el trabajo de forma progresiva, asegurando que cada fase cumpla un propósito específico dentro del proceso.
+                  p.mb-0 Los modelos de procesos pueden variar según el enfoque del desarrollo, pero en general incluyen actividades como planificación, diseño, ejecución, evaluación y cierre. Estas etapas permiten estructurar el trabajo de forma progresiva, asegurando que cada fase cumpla un propósito específico dentro del proceso.
 
         p.mt-4 Las siguientes son las fases del modelo de proceso de pruebas:
 
     .row.justify-content-center.mt-4
-      .col-lg-8
+      .col-lg-7
         LineaTiempoD.color-primario.linea-bold
           .row(numero="1" titulo="Planificación")
             .col-md-12.mb-4.mb-md-0
-              p Define el alcance del proceso de pruebas, la estrategia a seguir, los recursos necesarios, los riesgos identificados y el cronograma de ejecución.
+              p.mb-0 Define el alcance del proceso de pruebas, la estrategia a seguir, los recursos necesarios, los riesgos identificados y el cronograma de ejecución.
     
           .row(numero="2" titulo="Diseño")
             .col-md-12.mb-4.mb-md-0
-              p Consiste en la creación y documentación de los casos de prueba, a partir de los requisitos del sistema, asegurando una cobertura adecuada de las funcionalidades.
+              p.mb-0 Consiste en la creación y documentación de los casos de prueba, a partir de los requisitos del sistema, asegurando una cobertura adecuada de las funcionalidades.
     
           .row(numero="3" titulo="Ejecución")
             .col-md-12.mb-4.mb-md-0
-              p Implica la aplicación de las pruebas planificadas, la ejecución de los casos de prueba y el registro detallado de los resultados obtenidos.
+              p.mb-0 Implica la aplicación de las pruebas planificadas, la ejecución de los casos de prueba y el registro detallado de los resultados obtenidos.
     
           .row(numero="4" titulo="Evaluación")
             .col-md-12.mb-4.mb-md-0
-              p Analiza los resultados de las pruebas para identificar defectos, medir el cumplimiento de los criterios de aceptación y evaluar la calidad del <em>software</em>.
+              p.mb-0 Analiza los resultados de las pruebas para identificar defectos, medir el cumplimiento de los criterios de aceptación y evaluar la calidad del <em>software</em>.
 
           .row(numero="5" titulo="Cierre")
             .col-md-12.mb-4.mb-md-0
-              p Consolida la información generada durante el proceso, documenta las lecciones aprendidas y formaliza el cierre de las actividades de prueba.
+              p.mb-0 Consolida la información generada durante el proceso, documenta las lecciones aprendidas y formaliza el cierre de las actividades de prueba.
 
-
-      .col-lg-4.d-none.d-lg-block
+      .col-lg-5.d-none.d-lg-block
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema4/18.png', alt='', style="width: 100%").m-auto
 
     p.mt-4 La aplicación de estas fases permite identificar dependencias entre actividades, lo que facilita la coordinación del equipo y la optimización del proceso. Además, proporciona una base para medir el desempeño de las pruebas y detectar oportunidades de mejora.
-
 
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color2.p-4
-              p La documentación en el proceso de pruebas es el medio mediante el cual se registra, organiza y comunica la información generada durante la validación del <em>software</em>. Esta documentación no se limita a informes finales, sino que abarca todos los elementos que permiten comprender, ejecutar y evaluar las pruebas.
-
+              p.mb-0 La documentación en el proceso de pruebas es el medio mediante el cual se registra, organiza y comunica la información generada durante la validación del <em>software</em>. Esta documentación no se limita a informes finales, sino que abarca todos los elementos que permiten comprender, ejecutar y evaluar las pruebas.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-down")
       .bloque-texto-g__img(
@@ -364,32 +345,29 @@
         <br><br>
         p La calidad de la documentación influye directamente en la efectividad del proceso de pruebas. Una documentación clara permite reproducir pruebas, entender resultados y facilitar la comunicación entre los miembros del equipo.
 
-
     p.mt-4 Además, los modelos de procesos y la documentación se complementan, ya que los modelos definen cómo se ejecutan las pruebas y la documentación registra lo que ocurre en cada fase. Esta relación permite mantener un control completo del proceso, desde la planificación hasta el cierre.
-
-
 
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color1.p-4
-              p Las pruebas se integran en procesos continuos, la documentación tiende a ser más dinámica, adaptándose a herramientas digitales que permiten actualizar la información en tiempo real. Esto mejora la accesibilidad y facilita la gestión del proceso
+              p.mb-0  Las pruebas se integran en procesos continuos, la documentación tiende a ser más dinámica, adaptándose a herramientas digitales que permiten actualizar la información en tiempo real. Esto mejora la accesibilidad y facilita la gestión del proceso
 
         p.mt-4 La correcta aplicación de modelos de procesos y una adecuada gestión de la documentación permiten garantizar que las pruebas se desarrollen de manera organizada, controlada y verificable, contribuyendo a la calidad del <em>software</em> y a la eficiencia del equipo.
 
-    separador
+    Separador
+    
     #t_4_4.titulo-segundo.color-acento-contenido
       h2 4.4 Resolución de problemas y operación de pruebas
 
     p La operación de pruebas corresponde a la ejecución controlada de los casos definidos, donde se valida el comportamiento del sistema en condiciones reales o simuladas. Durante esta fase, el equipo de pruebas no solo ejecuta actividades previamente diseñadas, sino que también identifica desviaciones, analiza su impacto y toma decisiones para su tratamiento.
 
-
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-4.d-none.d-lg-block.order-2
         figure
           img(src='@/assets/curso/tema4/20.png', alt='', style="width: 480px").m-auto
-      .col-lg-8.bg-4.p-4
+      .col-lg-8.bg-1.p-4
 
         figure
           img(src="@/assets/curso/tema4/21.svg", alt="", style="width: 90px")
@@ -405,7 +383,7 @@
             img(src='@/assets/curso/tema4/22.svg', alt='').img100.m-auto
         
         p.text-center
-          b Identificación del error durante la ejecución
+          h4.text-center Identificación del error durante la ejecución
         p.text-center.mb-0 Consiste en detectar y documentar el fallo en el momento en que ocurre la prueba, registrando las condiciones, pasos realizados y evidencias necesarias para su posterior análisis.
               
       .tarjeta.bg-08.p-4
@@ -413,7 +391,7 @@
           .col-8
             img(src='@/assets/curso/tema4/23.svg', alt='').img100.m-auto
         p.text-center
-          b Análisis de la causa del fallo
+          h4.text-center Análisis de la causa del fallo
         p.text-center.mb-0 Implica examinar el origen del error para determinar si está relacionado con el código, la configuración, los datos de prueba o el diseño del sistema, evitando correcciones temporales.
 
       .tarjeta.bg-08.p-4
@@ -421,7 +399,7 @@
           .col-8
             img(src='@/assets/curso/tema4/24.svg', alt='').img100.m-auto
         p.text-center
-          b Evaluación del impacto en el sistema
+          h4.text-center Evaluación del impacto en el sistema
         p.text-center.mb-0 Permite determinar cómo el error afecta la funcionalidad, el rendimiento, la seguridad o la experiencia del usuario, así como su gravedad y prioridad de corrección.
 
       .tarjeta.bg-08.p-4
@@ -429,12 +407,10 @@
           .col-8
             img(src='@/assets/curso/tema4/25.svg', alt='').img100.m-auto
         p.text-center
-          b Definición de solución adecuada
+          h4.text-center Definición de solución adecuada
         p.text-center.mb-0 Consiste en proponer y aplicar una solución que ataque la causa raíz del problema, validando posteriormente que la corrección no genere nuevos errores.
 
-
     p.mt-4 La identificación de la causa raíz es un elemento clave en la resolución de problemas, ya que permite evitar la repetición de errores y mejorar la calidad del sistema. Este análisis puede involucrar la revisión de código, configuración del sistema o condiciones de ejecución.
-
 
     .row.align-items-center.mt-4(data-aos="fade-down")
       .col-lg-5.d-none.d-lg-block
@@ -448,7 +424,7 @@
             .row.align-items-center
               .col-lg-12
                 .cajon.color1.p-4
-                  p La correcta operación de pruebas permite detectar errores en tiempo oportuno, lo que reduce el impacto en el desarrollo y facilita la corrección. Además, el registro de resultados permite mantener un historial de pruebas que puede ser utilizado para análisis futuros.
+                  p.mb-0 La correcta operación de pruebas permite detectar errores en tiempo oportuno, lo que reduce el impacto en el desarrollo y facilita la corrección. Además, el registro de resultados permite mantener un historial de pruebas que puede ser utilizado para análisis futuros.
         
         .row.align-items-start.mt-4
           .col-lg-2.mb-lg-0.mb-4
@@ -458,19 +434,16 @@
           .col
             p En este contexto, la comunicación entre el equipo de pruebas y el equipo de desarrollo es fundamental para la resolución de problemas. La claridad en la información registrada facilita la comprensión del error y acelera su solución.
 
-
     p.mt-4 Para realizar un reporte adecuado de problemas en el proceso de pruebas, es necesario incluir información clave que permita comprender, analizar y resolver el error de manera eficiente, teniendo en cuenta las siguientes acciones:
 
-    SlyderB.mb-5.mt-4.p-4(:datos="datosSlyder" style="background-color: #EEE1E1 !important;")
+    SlyderB.mb-5.mt-4.p-4(:datos="datosSlyder" style="background-color: #F9E7E7 !important;")
 
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color2.p-4
-              p La operación de pruebas se integra con herramientas que permiten automatizar el monitoreo, registrar resultados en tiempo real y gestionar incidencias de manera centralizada. Esto mejora la eficiencia del proceso y facilita la toma de decisiones.
-
-
+              p.mb-0 La operación de pruebas se integra con herramientas que permiten automatizar el monitoreo, registrar resultados en tiempo real y gestionar incidencias de manera centralizada. Esto mejora la eficiencia del proceso y facilita la toma de decisiones.
 
 </template>
 
