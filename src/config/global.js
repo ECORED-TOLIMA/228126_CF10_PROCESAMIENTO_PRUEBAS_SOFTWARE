@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'DevOps e integración continua',
+    Name: 'Gestión del proceso de pruebas de <em>software</em>',
     Description:
-      'Este componente formativo aborda los fundamentos de DevOps, los procesos de desarrollo de software, el uso de contenedores, la integración, entrega y despliegue continuo, así como las herramientas Git, GitHub, GitLab y Jenkins. Estos conocimientos permiten comprender la automatización y la integración continua como soporte para el desarrollo y la entrega de software.',
+      'Este componente abarca metodologías de desarrollo, fundamentos y tipos de pruebas, así como técnicas para diseñar casos, gestionar incidencias y aplicar herramientas especializadas. Además, incluye la ejecución, certificación y mejora continua del <em>software</em>, junto con la generación de informes, trazabilidad y automatización en entornos de integración continua.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -393,13 +393,18 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'María Fernanda Pineda Mora',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
