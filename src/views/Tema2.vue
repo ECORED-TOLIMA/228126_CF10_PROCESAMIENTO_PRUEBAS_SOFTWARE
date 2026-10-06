@@ -176,7 +176,7 @@
       .col-lg-12
         figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/wXQ3wUC9qQw?si=UyR9drhodT28prFt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/M8DKlfO9dlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-4 Los niveles de prueba no se ejecutan de forma aislada, sino que se complementan entre sí, permitiendo construir una validación progresiva del sistema. Este enfoque facilita la detección temprana de errores en etapas iniciales, evitando que se propaguen hacia niveles más complejos donde su corrección implica mayor esfuerzo.
 
