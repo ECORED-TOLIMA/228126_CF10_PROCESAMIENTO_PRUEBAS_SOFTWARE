@@ -335,7 +335,7 @@
             figure.mb-0
               img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
           .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
-            h3.mb-0 <em>refactoring</em> 
+            h3.mb-0 <em>Refactoring</em> 
 
         p.mt-4 El <em>refactoring</em>, por su parte, se enfoca en la mejora del código fuente sin alterar su funcionalidad. Este proceso permite optimizar la estructura interna del sistema, facilitando su mantenimiento y reduciendo la complejidad del código.
 

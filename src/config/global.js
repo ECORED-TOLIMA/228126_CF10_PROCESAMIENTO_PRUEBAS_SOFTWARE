@@ -158,7 +158,7 @@ export default {
           },
           {
             numero: '5.3',
-            titulo: 'Mejora continua y refactoring',
+            titulo: 'Mejora continua y <em>refactoring</em>',
             hash: 't_5_3',
           },
         ],
@@ -190,7 +190,7 @@ export default {
         nombreRuta: 'tema7',
         numero: '7',
         titulo:
-          'Normatividad, seguridad y trazabilidad en el proceso de pruebas de software',
+          'Normatividad, seguridad y trazabilidad en el proceso de pruebas de <em>software</em>',
         desarrolloContenidos: true,
       },
     ],
@@ -220,7 +220,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228126_CF10_CFA.zip',
+        download: 'downloads/228126_CF10_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
